@@ -47,7 +47,7 @@ body {
 	background-color: #003E82;
 }
 
-/* .................................................. */
+/* Header.................................................. */
 
 .header {
 	background: #E0943BF0;
@@ -78,7 +78,14 @@ body {
 
 .menu__link {
 	color: #FFFFFF;
+	display: block;
+	transition: all 0.5s;
 }
+
+.menu__link:hover {
+	background-color: rgb(18, 110, 249);
+}
+
 
 .menu__link-active {
 	border-radius: 0px 5px;
@@ -89,7 +96,52 @@ body {
 
 .menu__item {
 	margin: 0px 40px;
+	position: relative;
 }
 .menu__item:last-child {
 	margin-right: 0px;
 }
+
+.menu__item:not(:first-child) {
+	margin-top: 10px;
+}
+
+.menu__item:hover .subMenu{
+	display: block;
+}
+
+	.subMenu {
+		padding-top: 7px;
+		/* border: 3px solid #d7d7d7b0; */
+		border-radius: 22px;
+		position: absolute;
+		left: -3%;
+		top: 100%;
+		display: none;
+		/* padding: 10px; */
+		width: 160px;
+		background-color:  #E0943BF0;
+		box-shadow: #FFFFFF;
+	}
+
+		.menu__item-subMenu {
+			padding: 10px;
+			cursor: pointer;
+		}
+
+		.menu__item-subMenu:hover {
+			background-color: rgb(18, 110, 249);
+		}
+
+		.menu__link-sub {
+			color: white;
+		}
+
+		/* .menu__link-sub:hover {
+			cursor: pointer;
+		} */
+
+
+
+
+/* end/Header.................................................. */
