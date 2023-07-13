@@ -53,12 +53,18 @@ body {
 	background: #E0943BF0;
 	padding: 25px 0px;
 	margin-bottom: 130px;
+	width: 100%;
+}
+
+.header__fixed {
 	position: fixed;
-	z-index: 3;
+	background: #E0943BF0;
 	width: 100%;
 	height: auto;
 	top: 0;
+	left: 0;
 }
+
 .container {
 	max-width: 1200px;
 	margin: 0px auto;
@@ -164,7 +170,7 @@ body {
 }
 
 .move-title-1 {
-	text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	/* text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
 font-family: Montserrat;
 font-size: 76px;
 font-style: italic;
@@ -181,12 +187,12 @@ width: 566px;
 }
 
 .move-title-2 {
-	text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	/* text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
 font-family: Montserrat;
 font-size: 73px;
 font-style:normal;
 font-weight: 800;
-line-height: 142.5%; /* 108.3px */
+line-height: 142.5%;
 letter-spacing: 3.04px;
 text-transform: uppercase;
 color: #FDFDFD;
@@ -237,6 +243,18 @@ height: 357px;
 		max-width: 720px;
 	}
 
+	.header {
+		width: 100%;
+	}
+
+	.header__fixed {
+	position: fixed;
+	background: #E0943BF0;
+	width: 100%;
+	height: auto;
+	top: 0;
+	left: 0;
+}
 
 	
 	.header__content {
