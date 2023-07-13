@@ -184,15 +184,15 @@ body {
 	}
 	.header__content {
 		position: relative;
-		padding: 0px 0px;
+		padding: 5px 5px;
 	}
 	.header__nav {
 		display: none;
 		position: absolute;
 		right: 0%;
-		top: 78px;
+		top: 88.5px;
 		background:  #ea902bf0;
-		border: 2px solid #65635d;
+		border: 1px solid #65635d;
 		border-radius: 16px;
 		padding: 17px;
 		margin: 0px;
@@ -247,19 +247,121 @@ body {
 }
 
 /* Small 577px - 768px */
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
 	.container {
-		width: 540px;
+		max-width: 540px;
 	}
 
+	.header__content {
+		position: relative;
+		padding: 0px 5px;
+	}
 
-} */
+	.menu__item {
+		margin: 0px 5.5px;
+		position: relative;
+	}
+
+	.menu__link-active {
+		border-radius: 0px 0px;
+		/* background:none; */
+		padding: 10px 5px;
+		
+	background: rgba(226, 221, 221, 0.42);
+	}
+
+	.subMenu {
+		/* overflow-y: scroll; */
+		padding-top: 0px;
+		border-radius: 10px;
+		position: absolute;
+
+		top: 35%;
+		right: -40%;
+		display: none;
+		max-width: 122px;
+		background-color:  #ea902bf0;
+		box-shadow: 1px -1px 3px 0px rgb(143, 143, 143);
+		margin-left: -22px;
+		margin-top: 40px;
+		/* height: auto; */
+		text-align: center;
+	}
+
+	.menu__item-subMenu {
+		padding: 5px 5px;
+		cursor: pointer;
+	}
+
+	.header__nav {
+		top: 78.5px;
+	}
+	
+
+	
+
+
+}
 
 /* the smallest 320px - 576px */
-/* @media (max-width: 576px) {
+@media (max-width: 576px) {
 	.container {
 		width: 100%;
-		padding: 0px 15px;
+		padding: 0px 0px;
 	}
 
-} */
+	.header__content {
+		position: relative;
+		padding: 5px 0px;
+	}
+
+	.header__nav {
+		top: 88.5px;
+	}
+
+	.menu {
+		flex-direction: column;
+		/* max-width: 120px;
+		max-height: 100px; */
+		text-align: center;
+		/* overflow-y: scroll; */
+	}
+
+	.menu__item {
+		margin-bottom: 5px;
+		position: relative;
+	}
+
+	.menu__item:not(:first-child) {
+		margin-top: 1px;
+	}
+
+		.subMenu {
+		border-radius: 18px;
+		position: absolute;
+		display: none;
+		left: -80.5%;
+		top: -270%;
+		/* display: flex;
+		flex-direction: row; */
+		
+		/* max-width: 120px; */
+		background-color:  #ea902bf0;
+		box-shadow: 1px -1px 3px 0px rgb(143, 143, 143);
+		text-align: center;
+	}
+
+	.menu__item-subMenu {
+		padding: 4px 4px;
+		cursor: pointer;
+	}
+
+	.menu__link-active {
+		border-radius: 0px 0px;
+		/* background:none; */
+		padding: 1px 5px;
+		background: rgba(226, 221, 221, 0.42);
+		
+	}
+
+}
