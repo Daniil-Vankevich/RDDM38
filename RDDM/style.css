@@ -112,16 +112,14 @@ body {
 
 	.subMenu {
 		padding-top: 7px;
-		/* border: 3px solid #d7d7d7b0; */
 		border-radius: 22px;
 		position: absolute;
 		left: -3%;
 		top: 100%;
 		display: none;
-		/* padding: 10px; */
 		width: 160px;
-		background-color:  #E0943BF0;
-		box-shadow: #FFFFFF;
+		background-color:  #df943df0;
+		box-shadow: 1px -1px 3px 0px rgb(143, 143, 143);
 	}
 
 		.menu__item-subMenu {
@@ -137,11 +135,131 @@ body {
 			color: white;
 		}
 
-		/* .menu__link-sub:hover {
-			cursor: pointer;
-		} */
+		.menu__btn {
+			width: 55px;
+			height: 50px;
+			display: none;
+			margin-left: 20px;
+		}
+		
+		.menu__btn img {
+			width: 100%;	
+		}
 
 
 
 
 /* end/Header.................................................. */
+
+/* media-запросы!.................... */
+
+/* large 1025px - 1700px */
+/* @media (max-width: 1600px) {
+	.container {
+		max-width: 1200px;
+	}
+	.menu__item {
+		margin: 0px 35px;
+		position: relative;
+	}
+} */
+
+/* large 1025px - 1300px */
+@media (max-width: 1300px) {
+	.container {
+		max-width: 960px;
+	}
+	.menu__item {
+		margin: 0px 35px;
+		position: relative;
+	}
+
+}
+
+
+/* Medium 769px - 1024px */
+@media (max-width: 1024px) {
+	.container {
+		max-width: 720px;
+	}
+	.header__content {
+		position: relative;
+		padding: 0px 0px;
+	}
+	.header__nav {
+		display: none;
+		position: absolute;
+		right: 0%;
+		top: 78px;
+		background:  #ea902bf0;
+		border: 2px solid #65635d;
+		border-radius: 16px;
+		padding: 17px;
+		margin: 0px;
+	}
+
+	.header__nav.header__nav-active {
+		display: block;
+	}
+
+	.menu__btn {
+		display: block;
+		margin-left: auto;
+	}
+	
+	.menu {
+		flex-direction: row;
+		width: auto;
+		/* text-align: center; */
+	}
+	.menu__item {
+		margin-bottom: 10px;
+	}
+	.menu__item:last-of-type {
+		margin-bottom: 0px;
+	}
+
+	.subMenu {
+
+		padding-top: 7px;
+		border-radius: 14px;
+		position: absolute;
+
+		top: 35%;
+		right: -40%;
+		display: none;
+		max-width: 160px;
+		background-color:  #ea902bf0;
+		box-shadow: 1px -1px 3px 0px rgb(143, 143, 143);
+		margin-left: -35px;
+		margin-top: 40px;
+	}
+
+	.menu__item {
+		margin: 0px 20px;
+		position: relative;
+	}
+
+	/* .menu__item:hover .subMenu{
+		display: block;
+	} */
+
+}
+
+/* Small 577px - 768px */
+/* @media (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+
+
+} */
+
+/* the smallest 320px - 576px */
+/* @media (max-width: 576px) {
+	.container {
+		width: 100%;
+		padding: 0px 15px;
+	}
+
+} */
