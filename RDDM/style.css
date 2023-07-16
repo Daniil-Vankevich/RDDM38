@@ -40,11 +40,16 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
 /* ................................................... */
 
+html {
+	height: 100%;
+}
+
 body {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 120%;
 	background-color: #003E82;
+	height: 100%;
 }
 
 /* Header.................................................. */
@@ -68,6 +73,7 @@ body {
 .container {
 	max-width: 1200px;
 	margin: 0px auto;
+	height: 100%;
 }
 .header__content {
 	display: flex;
@@ -272,7 +278,7 @@ margin-right: 7px;
 
 .news__img img {
 	height: 245px;
-	max-width: 360px;
+	max-width: 370px;
 	width: 100%;
 }
 .news-sub-title {
@@ -323,7 +329,8 @@ color: #FDFDFD;
 /* Block news.................................................. */
 
 .projects {
-	padding-bottom: 250px;
+	padding-bottom: 200px;
+	min-height: 100%;
 }
 .container {
 }
@@ -362,7 +369,7 @@ margin-right: 7px;
 
 .projects__img img {
 	height: 245px;
-	max-width: 360px;
+	max-width: 370px;
 	width: 100%;
 }
 .projects-sub-title {
@@ -409,10 +416,89 @@ color: #FDFDFD;
 
 /* END Block projects.................................................. */
 
+/*Block footer.................................................. */
+
+.footer {
+	background-color: #171A1A;
+	padding-bottom: 40px;
+	/* height: 250px; */
+	/* position: absolute; */
+	width: 100%;
+	/* margin-top: -250px; */
+}
+
+.footer__content {
+	display: flex;
+	flex-direction: column;
+	padding: 0px 10px;
+}
+
+.footer-logo {
+	width: 60px;
+	padding-top: 30px;
+}
+
+.footer__nav {
+	margin-left: 160px;
+	margin-top: -60px;
+}
+.footer-info {
+	display: flex;
+	justify-content:space-between;
+	max-width: 900px;
+}
+.footer-info__item {
+	flex: 0 1 33.333%;
+	margin-right: 45px;
+	margin-bottom: 15px;
+}
+
+.footer-info__item:last-child {
+	margin-right: 0px;
+}
+
+
+.footer-title {
+font-size: 18px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: uppercase;
+color: rgba(68, 85, 34, 0.45);
+margin-bottom: 25px;
+}
+
+.footer__description {
+color: rgba(255, 255, 255, 0.70);
+font-family: Montserrat;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 170%; /* 22.1px */
+width: 240px;
+}
+
+
+.footer__icon {
+	margin-left: auto;
+	/* margin-right: 170px; */
+	margin-top: -20px;
+	position: sticky;
+}
+.footer-link-vk {
+	margin-right: 30px;
+}
+.footer-link-rddm {
+}
+.footer-link-site_school {
+	margin-right: 30px;
+}
+
+/*Block footer.................................................. */
 
 /* media-запросы!.................... */
 
-/* large 1025px - 1700px */
+/* large 1301px - 1600px */
 @media (max-width: 1600px) {
 	.container {
 		max-width: 1200px;
@@ -571,7 +657,7 @@ color: #FDFDFD;
 	/* Block news.................................................. */
 
 .news {
-	padding-bottom: 150px;
+	padding-bottom: 120px;
 }
 .container {
 }
@@ -639,6 +725,87 @@ margin-right: 7px;
 .projects__items:last-child {
 	margin-right: 0px;
 }
+
+/* block footer............................. */
+
+	.footer {
+		background-color: #171A1A;
+		padding-bottom: 40px;
+		/* height: 250px; */
+		/* position: absolute; */
+		width: 100%;
+		/* margin-top: -250px; */
+	}
+	
+	.footer__content {
+		display: flex;
+		flex-direction: column;
+		padding: 0px 10px;
+	}
+	
+	.footer-logo {
+		width: 50px;
+		padding-top: 30px;
+	}
+	
+	.footer__nav {
+		margin-left: 100px;
+		margin-top: -60px;
+	}
+	.footer-info {
+		display: flex;
+		justify-content:space-between;
+		max-width: 900px;
+	}
+	.footer-info__item {
+		flex: 0 1 33.333%;
+		margin-right: 35px;
+		margin-bottom: 15px;
+	}
+	
+	.footer-info__item:last-child {
+		margin-right: 0px;
+	}
+	
+	
+	.footer-title {
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: normal;
+	text-transform: uppercase;
+	color: rgba(68, 85, 34, 0.45);
+	margin-bottom: 25px;
+	}
+
+	.footer__description {
+		color: rgba(255, 255, 255, 0.70);
+		font-family: Montserrat;
+		font-size: 13px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 170%; /* 22.1px */
+		max-width: 170px;
+		}
+	
+	
+	.footer__icon {
+		margin-left: auto;
+		/* margin-right: 170px; */
+		margin-top: -20px;
+		position: sticky;
+	}
+	.footer-link-vk {
+		margin-right: 20px;
+	}
+	.footer-link-rddm {
+	}
+	.footer-link-site_school {
+		margin-right: 20px;
+	}
+	
+	/*Block footer.................................................. */
+	
 	
 
 }
@@ -757,6 +924,118 @@ margin-right: 7px;
 		.projects {
 			padding-bottom: 120px;
 		}
+
+
+		/* block footer............................. */
+
+	.footer {
+		background-color: #171A1A;
+		padding-bottom: 40px;
+		/* height: 250px; */
+		/* position: absolute; */
+		width: 100%;
+		/* margin-top: -250px; */
+	}
+	
+	.footer__content {
+		display: flex;
+		flex-direction: column;
+		padding: 0px 5px;
+	}
+	
+	.footer-logo {
+		/* max-width: 20px; */
+		/* padding-top: 50px; */
+	}
+
+	.footer-logo img {
+		max-width: 60px;
+	}
+	
+	.footer__nav {
+		margin-left: 60px;
+		margin-top: -30px;
+	}
+	.footer-info {
+		display: flex;
+		justify-content:space-between;
+		max-width: 200px;
+		flex-wrap: wrap;
+	}
+	.footer-info__item {
+		flex: 0 1 50%;
+		margin-right: 0px;
+		margin-bottom: 40px;
+		margin-left: 100px;
+	}
+
+	.footer-info__item:nth-child(2) {
+		flex: 0 1 33.333%;
+		margin-right: 25px;
+	}
+	
+	.footer-info__item:last-child {
+		margin-right: 0px;
+	}
+	
+	
+	.footer-title {
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: normal;
+	text-transform: uppercase;
+	color: rgba(68, 85, 34, 0.45);
+	margin-bottom: 20px;
+	}
+
+	.footer-title-third {
+		font-size: 13px;
+		font-style: normal;
+		font-weight: 800;
+		line-height: normal;
+		text-transform: uppercase;
+		color: rgba(68, 85, 34, 0.45);
+		margin-bottom: 3px;
+	}
+
+
+	.footer__description {
+		color: rgba(255, 255, 255, 0.70);
+		font-family: Montserrat;
+		font-size: 13px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 150%; /* 22.1px */
+		max-width: 200px;
+		}
+
+		.footer__description-first {
+			max-width: 200px;
+			margin-right: 35px;
+		}
+	
+	
+	.footer__icon {
+		margin-left: auto;
+		margin-right: 90px;
+		margin-top: -15px;
+		position: sticky;
+
+	}
+	.footer-link-vk {
+		margin-right: 50px;
+	}
+	.footer-link-rddm {
+		margin-right: 50px;
+	}
+	.footer-link-site_school {
+		margin-right: 50px;
+	}
+	
+	/*Block footer.................................................. */
+	
+	
 
 }
 
@@ -1009,4 +1288,205 @@ font-size: 13px;
 
 /* END Block project.................................................. */
 
+
+
+		/* block footer............................. */
+
+		.footer {
+			background-color: #171A1A;
+			padding-bottom: 40px;
+			/* height: 250px; */
+			/* position: absolute; */
+			width: 100%;
+			/* margin-top: -250px; */
+		}
+		
+		.footer__content {
+			display: flex;
+			flex-direction: column;
+			padding: 0px 5px;
+		}
+		
+		.footer-logo {
+			/* max-width: 20px; */
+			/* padding-top: 50px; */
+		}
+	
+		.footer-logo img {
+			max-width: 60px;
+		}
+		
+		.footer__nav {
+			margin-left: 60px;
+			margin-top: -30px;
+		}
+		.footer-info {
+			display: flex;
+			justify-content:space-between;
+			max-width: 120px;
+			flex-wrap: wrap;
+		}
+		.footer-info__item {
+			flex: 0 1 50%;
+			margin-right: 0px;
+			margin-bottom: 40px;
+			margin-left: 80px;
+		}
+	
+		.footer-info__item:nth-child(2) {
+			flex: 0 1 33.333%;
+			margin-right: 25px;
+		}
+		
+		.footer-info__item:last-child {
+			margin-right: 0px;
+		}
+		
+		
+		.footer-title {
+		font-size: 13px;
+		font-style: normal;
+		font-weight: 900;
+		line-height: normal;
+		text-transform: uppercase;
+		color: rgba(68, 85, 34, 0.45);
+		margin-bottom: 20px;
+		}
+	
+		.footer-title-third {
+			font-size: 13px;
+			font-style: normal;
+			font-weight: 800;
+			line-height: normal;
+			text-transform: uppercase;
+			color: rgba(68, 85, 34, 0.45);
+			margin-bottom: 3px;
+		}
+	
+	
+		.footer__description {
+			color: rgba(255, 255, 255, 0.70);
+			font-family: Montserrat;
+			font-size: 13px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 150%; /* 22.1px */
+			max-width: 120px;
+			}
+	
+			.footer__description-first {
+				max-width: 120px;
+				margin-right: 35px;
+			}
+		
+		
+		.footer__icon {
+			margin-left: auto;
+			margin-right: 60px;
+			margin-top: -15px;
+			position: sticky;
+	
+		}
+		.footer-link-vk {
+			margin-right: 25px;
+		}
+		.footer-link-rddm {
+			margin-right: 25px;
+		}
+		.footer-link-site_school {
+			margin-right: 25px;
+		}
+		
+		/* END Block footer.................................................. */
+		
+
+}
+
+/* the smallest 320px - 576px */
+@media (max-width: 320px) {
+
+	.footer__icon {
+		margin-left: auto;
+		margin-right: 20px;
+		margin-top: -10px;
+		position: sticky;
+
+	}
+
+	.footer-link-rddm {
+		margin-right: 15px;
+	}
+	.footer-link-site_school {
+		margin-right: 15px;
+	}
+
+	.footer-link-vk {
+		margin-right: 5px;
+	}
+
+	.footer__description {
+		color: rgba(255, 255, 255, 0.70);
+		font-family: Montserrat;
+		font-size: 13px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 150%; /* 22.1px */
+		max-width: 100px;
+		}
+
+		.footer__description-first {
+			max-width: 100px;
+			margin-right: 0px;
+		}
+
+		.footer {
+			background-color: #171A1A;
+			padding-bottom: 40px;
+			/* height: 250px; */
+			/* position: absolute; */
+			width: 100%;
+			/* margin-top: -250px; */
+		}
+		
+		.footer__content {
+			display: flex;
+			flex-direction: column;
+			padding: 0px 0px;
+		}
+		
+		.footer-logo {
+			/* max-width: 20px; */
+			/* padding-top: 50px; */
+			margin-left: 10px;
+		}
+	
+		.footer-logo img {
+			max-width: 50px;
+		}
+		
+		.footer__nav {
+			margin-left: 40px;
+			margin-top: -30px;
+		}
+		.footer-info {
+			display: flex;
+			justify-content:space-between;
+			max-width: 120px;
+			flex-wrap: wrap;
+		}
+		.footer-info__item {
+			flex: 0 1 50%;
+			margin-right: 0px;
+			margin-bottom: 40px;
+			margin-left: 80px;
+		}
+	
+		.footer-info__item:nth-child(2) {
+			flex: 0 1 33.333%;
+			margin-right: 15px;
+		}
+		
+		.footer-info__item:last-child {
+			margin-right: 0px;
+		}
 }
