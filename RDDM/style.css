@@ -233,7 +233,7 @@ height: 350px;
 /* Block news.................................................. */
 
 .news {
-	padding-bottom: 330px;
+	padding-bottom: 250px;
 }
 .container {
 }
@@ -317,7 +317,97 @@ font-family: Montserrat;
 color: #FDFDFD;
 }
 
+/* END Block news.................................................. */
+
+
 /* Block news.................................................. */
+
+.projects {
+	padding-bottom: 250px;
+}
+.container {
+}
+.title-projects {
+font-family: Montserrat;
+font-size: 29px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-align: center;
+color: #FDFDFD;
+padding-bottom: 45px;
+margin-right: 7px;
+}
+.projects__content {
+	display: flex;
+	justify-content:center;
+}
+.projects__items {
+	flex: 0 1 33.333%;
+	border: 2px solid white;
+	border-radius: 7px;
+	padding: 6px 7px 8px 8px;
+	margin-right: 15px;
+}
+
+.projects__items:last-child {
+	margin-right: 0px;
+}
+
+.items-projects {
+}
+.projects__img {
+	margin-bottom: 21px;
+}
+
+.projects__img img {
+	height: 245px;
+	max-width: 360px;
+	width: 100%;
+}
+.projects-sub-title {
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: 125%; /* 22.5px */
+text-transform: uppercase;
+color: #FDFDFD;
+margin-bottom: 18px;
+}
+
+.projects-sub-title-first {
+	margin-bottom: 18px;
+}
+
+.projects__description {
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 170%; /* 23.8px */
+font-family: Montserrat;
+margin-bottom: 8px;
+color: #FDFDFD;
+}
+
+.description-projects {
+	width: 305px;
+}
+
+.projects__more {
+	margin-bottom: 8px;
+}
+.projects__more-link {
+font-size: 15px;
+font-style: normal;
+font-weight: 800;
+line-height: 170%; /* 25.5px */
+text-decoration-line: underline;
+font-family: Montserrat;
+color: #FDFDFD;
+}
+
+/* END Block projects.................................................. */
 
 
 /* media-запросы!.................... */
@@ -481,7 +571,7 @@ color: #FDFDFD;
 	/* Block news.................................................. */
 
 .news {
-	padding-bottom: 300px;
+	padding-bottom: 150px;
 }
 .container {
 }
@@ -507,10 +597,46 @@ margin-right: 7px;
 	border-radius: 7px;
 	padding: 6px 4px 8px 5px;
 	margin-right: 4px;
-	margin-bottom: 60px;
+	margin-bottom: 58px;
 }
 
 .news__items:last-child {
+	margin-right: 0px;
+}
+
+/* Block project */
+
+.projects {
+	padding-bottom: 150px;
+}
+.container {
+}
+.title-projects {
+font-family: Montserrat;
+font-size: 29px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-align: center;
+color: #FDFDFD;
+padding-bottom: 45px;
+margin-right: 7px;
+}
+.projects__content {
+	display: flex;
+	justify-content:center;
+	flex-wrap: wrap;
+}
+.projects__items {
+	flex: 0 1 50%;
+	border: 2px solid white;
+	border-radius: 7px;
+	padding: 6px 4px 8px 5px;
+	margin-right: 4px;
+	margin-bottom: 60px;
+}
+
+.projects__items:last-child {
 	margin-right: 0px;
 }
 	
@@ -623,7 +749,13 @@ margin-right: 7px;
 /* block news....................... */
 
 		.news {
-			padding-bottom: 240px;
+			padding-bottom: 120px;
+		}
+
+		/* block projects....................... */
+
+		.projects {
+			padding-bottom: 120px;
 		}
 
 }
@@ -747,13 +879,13 @@ margin-right: 7px;
 	/* Block news.................................................. */
 
 .news {
-	padding-bottom: 220px;
+	padding-bottom: 60px;
 }
 .container {
 }
 .title-news {
 font-family: Montserrat;
-font-size: 24px;
+font-size: 20px;
 
 }
 .news__content {
@@ -808,7 +940,73 @@ font-size: 13px;
 
 }
 
-/* Block news.................................................. */
-	
+/* END Block news.................................................. */
+
+
+	/* Block projects.................................................. */
+
+.projects {
+	padding-bottom: 60px;
+}
+.container {
+}
+.title-projects  {
+font-family: Montserrat;
+font-size: 20px;
+
+}
+.projects__content {
+	display: flex;
+	justify-content:center;
+}
+.projects__items {
+	flex: 0 1 33.333%;
+	border: 2px solid white;
+	border-radius: 7px;
+	padding: 0px 0px 0px 3px;
+	margin-right: 0px;
+}
+
+.projects__items:last-child {
+	margin-right: 0px;
+}
+
+.items-projects  {
+}
+.projects__img {
+	margin-bottom: 21px;
+}
+
+.projects__img img {
+	height: 245px;
+	max-width: 300px;
+	width: 100%;
+}
+.projects-sub-title {
+font-family: Montserrat;
+font-size: 14px;
+}
+
+.projects-sub-title-first {
+	margin-bottom: 18px;
+}
+
+.projects__description {
+font-size: 12px;
+}
+
+.description-projects {
+	width: 270px;
+}
+
+.projects__more {
+	margin-bottom: 8px;
+}
+.projects__more-link {
+font-size: 13px;
+
+}
+
+/* END Block project.................................................. */
 
 }
