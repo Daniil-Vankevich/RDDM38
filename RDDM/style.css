@@ -67,7 +67,7 @@ body {
 .header {
 	background: #E0943BF0;
 	padding: 25px 0px;
-	margin-bottom: 130px;
+	margin-bottom: 50px;
 	width: 100%;
 }
 
@@ -78,7 +78,24 @@ body {
 	height: auto;
 	top: 0;
 	left: 0;
+	animation-name: headerFixed;
+	animation-duration: 0.5s;
+	transition-duration: 0.5s;
+	transition-timing-function: linear;
 }
+
+@keyframes headerFixed {
+	0% {
+		opacity: 0;
+		top: -100px;
+	} 
+	100% {
+		opacity: 1;
+		top: 0;
+	} 
+}
+
+
 
 .container {
 	max-width: 1200px;
@@ -182,8 +199,8 @@ body {
 
 
 .move {
-	margin-top: 190px;
-	padding-bottom: 320px;
+	margin-top: 30px;
+	padding-bottom: 290px;
 }
 
 .move-title-1 {
@@ -353,7 +370,7 @@ line-height: normal;
 text-align: center;
 color: #FDFDFD;
 padding-bottom: 45px;
-margin-right: 7px;
+margin-right: -5px;
 }
 .projects__content {
 	display: flex;
@@ -478,6 +495,16 @@ color: rgba(68, 85, 34, 0.45);
 margin-bottom: 25px;
 }
 
+.footer-title-link {
+font-size: 18px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: uppercase;
+color: rgba(68, 85, 34, 0.45);
+margin-bottom: 25px;
+}
+
 .footer__description {
 color: rgba(255, 255, 255, 0.70);
 font-family: Montserrat;
@@ -550,6 +577,21 @@ width: 240px;
 	height: auto;
 	top: 0;
 	left: 0;
+	animation-name: headerFixed;
+	animation-duration: 0.2s;
+	transition-duration: 1s;
+	transition-timing-function: linear;
+}
+
+@keyframes headerFixed {
+	0% {
+		opacity: 0;
+		top: -100px;
+	} 
+	100% {
+		opacity: 1;
+		top: 0;
+	} 
 }
 
 	
@@ -620,7 +662,7 @@ width: 240px;
 	/* Block Move................ */
 
 	.move {
-		margin-top: 140px;
+		margin-top: 5px;
 		padding-bottom: 210px;
 	}
 	
@@ -827,7 +869,7 @@ margin-right: 7px;
 	}
 
 	.header {
-		margin-bottom: 105px;
+		margin-bottom: 30px;
 		width: 100%;
 	}
 
@@ -880,7 +922,7 @@ margin-right: 7px;
 		/* Block Move................ */
 
 		.move {
-			margin-top: 100px;
+			margin-top: 20px;
 			padding-bottom: 170px;
 		}
 		
@@ -893,6 +935,7 @@ margin-right: 7px;
 		font-size: 56px;
 		max-width: 480px;
 		height: 270px;
+		margin-bottom: 50px;
 		}
 		
 		.move__content {
@@ -1064,7 +1107,7 @@ margin-right: 7px;
 	}
 
 	.header {
-		margin-bottom: 90px;
+		margin-bottom: 5px;
 		width: 100%;
 	}
 
@@ -1126,19 +1169,19 @@ margin-right: 7px;
 
 
 	.move {
-		margin-top: 30px;
+		margin-top: -30px;
 		padding-bottom: 100px;
 	}
 	
 	.move-title-1 {
-	font-size: 40px;
+	font-size: 44px;
 	max-width: 280px;
 	}
 	
 	.move-title-2 {
 	font-size: 32px;
 	max-width: 280px;
-	height: 175px;
+	height: 115px;
 	}
 	
 	.move__content {
@@ -1392,6 +1435,10 @@ font-size: 13px;
 			.footer__description-first {
 				max-width: 120px;
 				margin-right: 35px;
+			}
+
+			.footer-title-third {
+				margin-bottom: 15px;
 			}
 		
 		
