@@ -52,6 +52,16 @@ body {
 	height: 100%;
 }
 
+.wrapper {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.main {
+	flex-grow: 1;
+}
+
 /* Header.................................................. */
 
 .header {
@@ -1043,9 +1053,14 @@ margin-right: 7px;
 @media (max-width: 576px) {
 
 	/* HEADER !!!!!!!!!!!!!!!!! */
+
+	.wrapper {
+		
+	}
+
 	.container {
 		width: 100%;
-		padding: 0px 0px;
+		padding: 5px 5px;
 	}
 
 	.header {
@@ -1081,7 +1096,7 @@ margin-right: 7px;
 		border-radius: 18px;
 		position: absolute;
 		display: none;
-		left: -80.5%;
+		left: -63%;
 		top: -291%;
 
 		/* max-width: 120px; */
@@ -1388,14 +1403,16 @@ font-size: 13px;
 	
 		}
 		.footer-link-vk {
-			margin-right: 25px;
+			margin-right: 15px;
 		}
 		.footer-link-rddm {
 			margin-right: 25px;
 		}
 		.footer-link-site_school {
-			margin-right: 25px;
+			margin-right: 15px;
 		}
+
+
 		
 		/* END Block footer.................................................. */
 		
@@ -1405,15 +1422,20 @@ font-size: 13px;
 /* the smallest 320px - 576px */
 @media (max-width: 320px) {
 
+	.container {
+		width: 100%;
+		padding: 5px 0px;
+	}
+
 	.footer__icon {
 		margin-left: auto;
-		margin-right: 20px;
+		margin-right: 10px;
 		margin-top: -10px;
 		position: sticky;
 
 	}
 
-	.footer-link-rddm {
+	/* .footer-link-rddm {
 		margin-right: 15px;
 	}
 	.footer-link-site_school {
@@ -1422,7 +1444,7 @@ font-size: 13px;
 
 	.footer-link-vk {
 		margin-right: 5px;
-	}
+	} */
 
 	.footer__description {
 		color: rgba(255, 255, 255, 0.70);
@@ -1457,7 +1479,7 @@ font-size: 13px;
 		.footer-logo {
 			/* max-width: 20px; */
 			/* padding-top: 50px; */
-			margin-left: 10px;
+			margin-left: 7px;
 		}
 	
 		.footer-logo img {
@@ -1465,7 +1487,7 @@ font-size: 13px;
 		}
 		
 		.footer__nav {
-			margin-left: 40px;
+			margin-left: 30px;
 			margin-top: -30px;
 		}
 		.footer-info {
@@ -1489,4 +1511,19 @@ font-size: 13px;
 		.footer-info__item:last-child {
 			margin-right: 0px;
 		}
+
+		.footer__description {
+			color: rgba(255, 255, 255, 0.70);
+			font-family: Montserrat;
+			font-size: 13px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 150%; /* 22.1px */
+			max-width: 110px;
+			}
+	
+			.footer__description-first {
+				max-width: 110px;
+				margin-right: 20px;
+			}
 }
