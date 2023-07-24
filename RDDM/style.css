@@ -135,7 +135,7 @@ body {
 .menu__link-active {
 	border-radius: 0px 5px;
 	background: rgba(226, 221, 221, 0.42);
-	padding: 10px 10px;
+	padding: 3px 10px;
 }
 
 
@@ -490,6 +490,16 @@ margin: 0px 0px 0px 0px;
 	height: auto;
 }
 
+.menu__link-active-galary {
+	border-radius: 0px 5px;
+	background: rgba(226, 221, 221, 0.42);
+	padding: 2px 10px;
+}
+
+.menu__item:first-child {
+	margin-top: 10px;
+}
+
 /* End galary block */
 
 /*Block footer.................................................. */
@@ -828,6 +838,28 @@ margin-right: 7px;
 	margin-right: 0px;
 }
 
+/* galary block */
+
+
+.galary-title {
+font-size: 64px;
+margin-bottom: 30px;
+}
+.galary-description {
+color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 44px;
+}
+
+.description-galary {
+	/* max-width: 800px; */
+	height: 295px;
+}
+
+/* End galary block */
+
+
 /* block footer............................. */
 
 	.footer {
@@ -929,14 +961,14 @@ margin-right: 7px;
 	}
 
 	.menu__item {
-		margin: 0px 5.5px;
+		margin: 0px 3px;
 		position: relative;
 	}
 
 	.menu__link-active {
 		border-radius: 0px 0px;
 		/* background:none; */
-		padding: 10px 5px;
+		padding: 2.5px 5px;
 		
 	background: rgba(226, 221, 221, 0.42);
 	}
@@ -1028,6 +1060,29 @@ margin-right: 7px;
 			padding-bottom: 120px;
 		}
 
+
+
+		/* galary block */
+
+
+.galary-title {
+	font-size: 60px;
+	margin-bottom: 25px;
+	}
+	.galary-description {
+	color: #FFF;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 40px;
+	}
+	
+	.description-galary {
+		/* max-width: 800px; */
+		height: 255px;
+	}
+	
+
+	/* End galary block */
 
 		/* block footer............................. */
 
@@ -1396,6 +1451,57 @@ font-size: 13px;
 
 /* END Block project.................................................. */
 
+
+.galary-title {
+	color: #FFF;
+	text-align: center;
+	text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+	font-family: Montserrat;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 142.5%; /* 102.6px */
+	letter-spacing: 2.88px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	}
+	.galary-description {
+	color: #FFF;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 170%; /* 81.6px */
+	margin: 0px 0px 0px 0px;
+	}
+	
+	.description-galary {
+		/* max-width: 800px; */
+		height: 205px;
+	}
+	
+	
+	.galary__img {
+		text-align: center;
+		margin-bottom: 60px;
+		padding: 0px 5px 0px 5px;
+	}
+	.galary__img img {
+		width: 100%;
+		max-width: 750px;
+		height: auto;
+	}
+	
+	.menu__link-active-galary {
+		border-radius: 0px 5px;
+		background: rgba(226, 221, 221, 0.42);
+		padding: 2px 10px;
+	}
+	
+	.menu__item:first-child {
+		margin-top: 10px;
+	}
 
 
 		/* block footer............................. */
