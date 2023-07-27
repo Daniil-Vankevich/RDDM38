@@ -806,6 +806,82 @@ max-width: 1030px;
 
 /* END Block direction-page */
 
+/* Block mission */
+
+.menu__link-active-mission {
+	border-radius: 0px 5px;
+	background: rgba(226, 221, 221, 0.42);
+	padding: 2px 2px;
+}
+
+.mission {
+	margin-top: -30px;
+	padding-bottom: 120px;
+}
+
+.mission-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* margin-left: 120px; */
+}
+.mission__item {
+	align-items: center;
+	padding-bottom: 45px;
+}
+.mission__item-title {
+	color: #FFF;
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 142.5%; /* 57px */
+letter-spacing: 1.6px;
+text-transform: uppercase;
+max-width: 920px;
+margin-bottom: 40px;
+text-align: center;
+}
+
+.mission__item-sub-title {
+	color: #FFF;
+	font-family: Montserrat;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 142.5%; /* 57px */
+	letter-spacing: 1.6px;
+	text-transform: uppercase;
+	max-width: 920px;
+	margin-bottom: 25px;
+}
+
+.mission__item-img {
+	margin-bottom: 20px;
+}
+
+
+.mission__item-img img {
+	width: 100%;
+	max-width: 880px;
+	height: auto;
+		}
+
+.mission__description {
+	color: #FFF;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 150%; /* 24px */
+	/* font-variant: small-caps; */
+	letter-spacing: 0.32px;
+	padding-bottom: 15px;
+	max-width: 875px;
+}
+
+/* END Block mission */
+
 /*Block footer.................................................. */
 
 .footer {
@@ -1375,6 +1451,82 @@ text-align: center;
 	}
 
 /* end block direction-page............................ */
+
+/* Block mission */
+
+.menu__link-active-mission {
+	border-radius: 0px 5px;
+	background: rgba(226, 221, 221, 0.42);
+	padding: 2px 2px;
+}
+
+.mission {
+	margin-top: -65px;
+	padding-bottom: 120px;
+}
+
+.mission-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* margin-left: 120px; */
+}
+.mission__item {
+	align-items: center;
+	padding-bottom: 45px;
+}
+.mission__item-title {
+	color: #FFF;
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 142.5%; /* 57px */
+letter-spacing: 1.6px;
+text-transform: uppercase;
+max-width: 920px;
+margin-bottom: 40px;
+text-align: center;
+}
+
+.mission__item-sub-title {
+	color: #FFF;
+	font-family: Montserrat;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 142.5%; /* 57px */
+	letter-spacing: 1.6px;
+	text-transform: uppercase;
+	max-width: 920px;
+	margin-bottom: 25px;
+}
+
+.mission__item-img {
+	margin-bottom: 20px;
+}
+
+
+.mission__item-img img {
+	width: 100%;
+	max-width: 880px;
+	height: auto;
+		}
+
+.mission__description {
+	color: #FFF;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 150%; /* 24px */
+	/* font-variant: small-caps; */
+	letter-spacing: 0.32px;
+	padding-bottom: 15px;
+	max-width: 875px;
+}
+
+/* END Block mission */
 
 /* block footer............................. */
 
@@ -2484,6 +2636,82 @@ margin-bottom: 30px;
 }
 
 /* END Block direction-page */
+
+/* Block mission */
+
+.menu__link-active-mission {
+	border-radius: 0px 5px;
+	background: rgba(226, 221, 221, 0.42);
+	padding: 2px 2px;
+}
+
+.mission {
+	margin-top: -65px;
+	padding-bottom: 120px;
+}
+
+.mission-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* margin-left: 120px; */
+}
+.mission__item {
+	align-items: center;
+	padding-bottom: 45px;
+}
+.mission__item-title {
+	color: #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 142.5%; /* 57px */
+letter-spacing: 1.6px;
+text-transform: uppercase;
+max-width: 920px;
+margin-bottom: 40px;
+text-align: center;
+}
+
+.mission__item-sub-title {
+	color: #FFF;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 142.5%; /* 57px */
+	letter-spacing: 1.6px;
+	text-transform: uppercase;
+	max-width: 920px;
+	margin-bottom: 25px;
+}
+
+.mission__item-img {
+	margin-bottom: 20px;
+}
+
+
+.mission__item-img img {
+	width: 100%;
+	max-width: 880px;
+	height: auto;
+		}
+
+.mission__description {
+	color: #FFF;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 150%; /* 24px */
+	/* font-variant: small-caps; */
+	letter-spacing: 0.32px;
+	padding-bottom: 15px;
+	max-width: 875px;
+}
+
+/* END Block mission */
 
 
 		/* block footer............................. */
