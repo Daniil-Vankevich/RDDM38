@@ -882,6 +882,95 @@ text-align: center;
 
 /* END Block mission */
 
+/* Block contacts */
+
+.contacts {
+	margin-top: -50px;
+	padding-bottom: 130px;
+}
+
+.menu__link-active-contacts {
+	border-radius: 0px 5px;
+	background: rgba(226, 221, 221, 0.42);
+	padding: 2px 2px;
+}
+
+.contacts-content {
+}
+.contacts__item {
+}
+.contacts__item-title {
+	color: #FFF;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 142.5%; /* 57px */
+	letter-spacing: 1.6px;
+	text-transform: uppercase;
+	padding-bottom: 95px;
+}
+.contacts__item-sub-title {
+	color: #FFF;
+	/* text-align: center; */
+	font-family: Montserrat;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 142.5%; /* 57px */
+	letter-spacing: 1.6px;
+	text-transform: uppercase;
+	padding-bottom: 45px;
+}
+.contacts__description {
+	color: #FFF;
+	/* text-align: center; */
+	font-family: Montserrat;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 172.5%; /* 57px */
+	letter-spacing: 1.6px;
+	text-transform: uppercase;
+	padding-bottom: 25px;
+}
+.contacts__adress {
+	padding-bottom: 25px;
+	max-width: 450px;
+}
+.contacts__mail {
+	padding-bottom: 25px;
+	max-width: 450px;
+}
+.contacts__site {
+	padding-bottom: 25px;
+	max-width: 450px;
+}
+
+.contacts__site-link {
+	color: #FFF;
+	padding-bottom: 15px;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 142.5%; /* 57px */
+	letter-spacing: 1.6px;
+	text-transform: uppercase;
+}
+
+.contacts__site-link:visited {
+	color: #FFF;
+}
+
+.contacts__mode-work {
+	max-width: 370px;
+	padding-bottom: 25px;
+}
+
+/* END Block contacts */
+
 /*Block footer.................................................. */
 
 .footer {
@@ -1953,6 +2042,56 @@ margin-bottom: 35px;
 
 /* end block direction-page............................ */
 
+/* Block contacts */
+
+.contacts {
+	margin-top: -50px;
+	padding-bottom: 130px;
+}
+
+.contacts-content {
+}
+.contacts__item {
+}
+.contacts__item-title {
+	color: #FFF;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 142.5%; /* 57px */
+	letter-spacing: 1.6px;
+	text-transform: uppercase;
+	padding-bottom: 95px;
+}
+.contacts__item-sub-title {
+	color: #FFF;
+	/* text-align: center; */
+	font-family: Montserrat;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 142.5%; /* 57px */
+	letter-spacing: 1.6px;
+	text-transform: uppercase;
+	padding-bottom: 45px;
+}
+.contacts__description {
+	color: #FFF;
+	/* text-align: center; */
+	font-family: Montserrat;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 172.5%; /* 57px */
+	letter-spacing: 1.6px;
+	text-transform: uppercase;
+	padding-bottom: 25px;
+}
+
+/* END Block contacts */
+
 		/* block footer............................. */
 
 	.footer {
@@ -2713,6 +2852,67 @@ text-align: center;
 
 /* END Block mission */
 
+/* Block contacts */
+
+.contacts {
+	margin-top: -60px;
+	padding-bottom: 130px;
+}
+
+.contacts-content {
+}
+.contacts__item {
+}
+.contacts__item-title {
+	color: #FFF;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 142.5%; /* 57px */
+	letter-spacing: 1.6px;
+	text-transform: uppercase;
+	padding-bottom: 55px;
+}
+.contacts__item-sub-title {
+	color: #FFF;
+	/* text-align: center; */
+	font-family: Montserrat;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 142.5%; /* 57px */
+	letter-spacing: 1.6px;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+}
+.contacts__description {
+	color: #FFF;
+	/* text-align: center; */
+	font-family: Montserrat;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 172.5%; /* 57px */
+	letter-spacing: 1.6px;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+
+.contacts__site-link {
+	color: #FFF;
+	padding-bottom: 15px;
+	font-family: Montserrat;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 142.5%; /* 57px */
+	letter-spacing: 1.6px;
+	text-transform: uppercase;
+}
+
+/* END Block contacts */
 
 		/* block footer............................. */
 
