@@ -1035,31 +1035,32 @@ cursor: pointer;
 display: flex;
 align-items: center;
 }
+
+
 .answer__detail[open] .answer__question::after {
-	transform: rotate(90deg);
+	/* transform: rotate(45deg); */
+	background-image: url(./img/answerQuestion/1.png);
+	background-size: 60%;
+	background-position: 30px;
+	background-repeat: no-repeat;
+	width: 60px;
+	height: 5px;
+	transition: all linear 0.4s;
 }
 
 .answer__question::after {
 	content: '';
 	display: inline-block;
 	width: 100px;
-	height: 5px;
-	background-image: url(./img/answerQuestion/1.png);
-	background-size: 60%;
-	background-position: 70px;
-	background-repeat: no-repeat;
-	margin-left: auto;
-	transition: all linear 0.5s;
-}
-/* .answer__question:visited {
-	content: '';
-	display: inline-block;
+	height: 35px;
 	background-image: url(./img/answerQuestion/2.png);
-	background-size: 60%;
-	background-position: 70px;
+	background-size: 25%;
+	background-position:70px;
 	background-repeat: no-repeat;
 	margin-left: auto;
-} */
+	transition: all linear 0.4s;
+	/* transform: rotate(-90deg); */
+}
 
 .answer__detail{
 	padding-bottom: 45px;
