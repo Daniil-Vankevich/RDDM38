@@ -207,7 +207,7 @@ body {
 font-family: Montserrat;
 font-size: 76px;
 font-style: italic;
-font-weight: 700;
+font-weight: 800;
 line-height: 142.5%; /* 108.3px */
 letter-spacing: 3.04px;
 text-transform: uppercase;
@@ -1378,6 +1378,7 @@ width: 240px;
 	.move-title-1 {
 	font-size: 68px;
 	max-width: 566px;
+	font-weight: 800;
 	}
 	
 	.move-title-2 {
@@ -2144,6 +2145,7 @@ padding-top: 22px;
 		.move-title-1 {
 		font-size: 60px;
 		max-width: 490px;
+		font-weight: 800;
 		}
 		
 		.move-title-2 {
@@ -2899,6 +2901,7 @@ letter-spacing: 0.64px; */
 	.move-title-1 {
 	font-size: 44px;
 	max-width: 280px;
+	font-weight: 600;
 	}
 	
 	.move-title-2 {

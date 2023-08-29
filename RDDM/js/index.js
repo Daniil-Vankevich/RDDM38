@@ -3,9 +3,37 @@
 const headerNav = document.querySelector('.header__nav');
 const menuBtn = document.querySelector('.menu__btn');
 
-menuBtn.addEventListener('click', () => {
-	headerNav.classList.toggle('header__nav-active')
-});
+//burger menu
+
+// menuBtn.addEventListener('click', () => {
+// 	headerNav.classList.toggle('header__nav-active');
+
+// });
+
+// Закрытие бургер меню при нажатии клавиши escape
+
+document.addEventListener('keyup', function(event) {
+		if(event.code === "Escape") {
+		headerNav.classList.remove('header__nav-active');
+	}
+})
+
+// Открытие и Закрытие бургер меню при нажатии на документ вне меню
+
+document.addEventListener('click', menu);
+
+function menu(event) {
+	if(event.target.closest('.menu__btn')) {
+
+		headerNav.classList.toggle('header__nav-active');
+
+	};
+	if(!event.target.closest('.menu__btn')) {
+
+		headerNav.classList.remove('header__nav-active');
+
+	}
+}
 
 
 // header fixed...........
