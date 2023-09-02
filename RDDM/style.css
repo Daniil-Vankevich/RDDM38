@@ -524,7 +524,7 @@ color: #FDFDFD;
 /* END Block news.................................................. */
 
 
-/* Block news.................................................. */
+/* Block project.................................................. */
 
 .projects {
 	padding-bottom: 200px;
@@ -739,7 +739,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 600;
 line-height: 150%; 
-font-variant: small-caps;
+/* font-variant: small-caps; */
 letter-spacing: 0.32px;
 max-width: 845px;
 word-wrap: break-word;
@@ -816,7 +816,7 @@ max-width: 875px;
 	font-style: normal;
 	font-weight: 600;
 	line-height: 150%; 
-	font-variant: small-caps;
+	/* font-variant: small-caps; */
 	letter-spacing: 0.32px;
 	max-width: 845px;
 	word-wrap: break-word;
@@ -893,7 +893,7 @@ text-align: center;
 	font-style: normal;
 	font-weight: 600;
 	line-height: 150%; 
-	font-variant: small-caps;
+	/* font-variant: small-caps; */
 	letter-spacing: 0.32px;
 	max-width: 845px;
 	word-wrap: break-word;
@@ -1180,7 +1180,7 @@ font-size: 24px;
 font-style: normal;
 font-weight: 700;
 line-height: 142.5%; /* 34.2px */
-font-variant: small-caps;
+/* font-variant: small-caps; */
 letter-spacing: 0.96px;
 width: 880px;
 padding-bottom: 120px;
@@ -1195,7 +1195,7 @@ font-size: 24px;
 font-style: normal;
 font-weight: 700;
 line-height: 142.5%; /* 34.2px */
-font-variant: small-caps;
+/* font-variant: small-caps; */
 letter-spacing: 0.96px;
 border-bottom: 2px solid orange;
 padding-bottom: 20px;
@@ -1275,7 +1275,7 @@ font-size: 48px;
 font-style: normal;
 font-weight: 700;
 line-height: 142.5%; /* 68.4px */
-font-variant: small-caps;
+/* font-variant: small-caps; */
 letter-spacing: 1.92px;
 padding-bottom: 50px;
 }
@@ -1306,6 +1306,10 @@ padding-bottom: 50px;
 
 }
 
+.documents__link:visited {
+	color: #000;
+}
+
 .documents__description {
 color: #000;
 font-family: Montserrat;
@@ -1313,11 +1317,12 @@ font-size: 16px;
 font-style: normal;
 font-weight: 700;
 line-height: 142.5%; /* 22.8px */
-font-variant: small-caps;
+/* font-variant: small-caps; */
 letter-spacing: 0.64px;
 width: 230px;
 padding-top: 22px;
 }
+
 
 /* END Block documents */
 
@@ -1853,7 +1858,7 @@ text-align: center;
 	font-style: normal;
 	font-weight: 600;
 	line-height: 150%; 
-	font-variant: small-caps;
+	/* font-variant: small-caps; */
 	letter-spacing: 0.32px;
 	max-width: 790px;
 	word-wrap: break-word;
@@ -2008,7 +2013,7 @@ font-size: 20px;
 font-style: normal;
 font-weight: 700;
 line-height: 142.5%; /* 34.2px */
-font-variant: small-caps;
+/* font-variant: small-caps; */
 letter-spacing: 0.96px;
 max-width: 650px;
 padding-bottom: 120px;
@@ -2023,7 +2028,7 @@ font-size: 24px;
 font-style: normal;
 font-weight: 700;
 line-height: 142.5%; /* 34.2px */
-font-variant: small-caps;
+/* font-variant: small-caps; */
 letter-spacing: 0.96px;
 border-bottom: 2px solid orange;
 padding-bottom: 20px;
@@ -2101,7 +2106,7 @@ font-size: 48px;
 font-style: normal;
 font-weight: 700;
 line-height: 142.5%; /* 68.4px */
-font-variant: small-caps;
+/* font-variant: small-caps; */
 letter-spacing: 1.92px;
 padding-bottom: 50px;
 }
@@ -2147,7 +2152,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 700;
 line-height: 142.5%; /* 22.8px */
-font-variant: small-caps;
+/* font-variant: small-caps; */
 letter-spacing: 0.64px;
 width: 230px;
 padding-top: 22px;
@@ -2316,7 +2321,7 @@ padding-top: 22px;
 		.move-title-1 {
 		font-size: 60px;
 		max-width: 490px;
-		font-weight: 800;
+		font-weight: 900;
 		}
 		
 		.move-title-2 {
@@ -2679,7 +2684,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 700;
 line-height: 142.5%; /* 34.2px */
-font-variant: small-caps;
+/* font-variant: small-caps; */
 letter-spacing: 0.96px;
 max-width: 560px;
 padding-bottom: 120px;
@@ -2694,7 +2699,7 @@ font-size: 20px;
 font-style: normal;
 font-weight: 700;
 line-height: 142.5%; /* 34.2px */
-font-variant: small-caps;
+/* font-variant: small-caps; */
 letter-spacing: 0.96px;
 border-bottom: 2px solid orange;
 padding-bottom: 20px;
@@ -2791,7 +2796,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 700;
 line-height: 142.5%; /* 34.2px */
-font-variant: small-caps;
+/* font-variant: small-caps; */
 letter-spacing: 0.96px;
 max-width: 540px;
 padding-bottom: 120px;
@@ -2806,7 +2811,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 700;
 line-height: 142.5%; /* 34.2px */
-font-variant: small-caps;
+/* font-variant: small-caps; */
 letter-spacing: 0.96px;
 border-bottom: 2px solid orange;
 padding-bottom: 20px;
@@ -3072,7 +3077,7 @@ letter-spacing: 0.64px; */
 	.move-title-1 {
 	font-size: 44px;
 	max-width: 280px;
-	font-weight: 600;
+	font-weight: 400;
 	}
 	
 	.move-title-2 {
@@ -3736,7 +3741,7 @@ font-size: 14px;
 font-style: normal;
 font-weight: 700;
 line-height: 142.5%; /* 34.2px */
-font-variant: small-caps;
+/* font-variant: small-caps; */
 letter-spacing: 0.96px;
 max-width: 400px;
 padding-bottom: 60px;
@@ -3751,7 +3756,7 @@ font-size: 14px;
 font-style: normal;
 font-weight: 600;
 line-height: 142.5%; /* 34.2px */
-font-variant: small-caps;
+/* font-variant: small-caps; */
 letter-spacing: 0.96px;
 border-bottom: 2px solid orange;
 padding-bottom: 20px;
@@ -3832,7 +3837,7 @@ font-size: 36px;
 font-style: normal;
 font-weight: 700;
 line-height: 142.5%; /* 68.4px */
-font-variant: small-caps;
+/* font-variant: small-caps; */
 letter-spacing: 1.92px;
 padding-bottom: 50px;
 }
@@ -3878,7 +3883,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 700;
 line-height: 142.5%; /* 22.8px */
-font-variant: small-caps;
+/* font-variant: small-caps; */
 letter-spacing: 0.64px;
 width: 230px;
 padding-top: 22px;
@@ -4054,7 +4059,7 @@ font-size: 14px;
 font-style: normal;
 font-weight: 600;
 line-height: 142.5%; /* 34.2px */
-font-variant: small-caps;
+/* font-variant: small-caps; */
 letter-spacing: 0.96px;
 max-width: 320px;
 padding-bottom: 60px;
@@ -4069,7 +4074,7 @@ font-size: 14px;
 font-style: normal;
 font-weight: 600;
 line-height: 142.5%; /* 34.2px */
-font-variant: small-caps;
+/* font-variant: small-caps; */
 letter-spacing: 0.96px;
 border-bottom: 2px solid orange;
 padding-bottom: 20px;
@@ -4167,7 +4172,7 @@ font-size: 32px;
 font-style: normal;
 font-weight: 700;
 line-height: 142.5%; /* 68.4px */
-font-variant: small-caps;
+/* font-variant: small-caps; */
 letter-spacing: 1.92px;
 padding-bottom: 50px;
 }
@@ -4216,7 +4221,7 @@ font-size: 12px;
 font-style: normal;
 font-weight: 600;
 line-height: 142.5%; /* 22.8px */
-font-variant: small-caps;
+/* font-variant: small-caps; */
 letter-spacing: 0.64px;
 width: 180px;
 padding-top: 20px;
@@ -4235,7 +4240,7 @@ padding-top: 20px;
 	font-style: normal;
 	font-weight: 600;
 	line-height: 142.5%; /* 34.2px */
-	font-variant: small-caps;
+	/* font-variant: small-caps; */
 	letter-spacing: 0.96px;
 	max-width: 275px;
 	padding-bottom: 60px;
